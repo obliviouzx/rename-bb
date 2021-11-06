@@ -12,7 +12,7 @@ async def ping_handler(c: Client, m: "types.Message"):
         return await m.reply_text("I don't know about you sar :(")
     await add_user_to_database(c, m)
     await m.reply_text("Hi, I am Rename Bot!\n\n"
-                       "I can rename media without downloading it!\n"
+                       "obage sewayata ma badi sitimi"
                        "Speed depends on your media DC.\n\n"
                        "Just send me media and reply to it with /rename command.",
                        reply_markup=types.InlineKeyboardMarkup([[
@@ -26,7 +26,7 @@ async def help_handler(c: Client, m: "types.Message"):
     if not m.from_user:
         return await m.reply_text("I don't know about you sar :(")
     await add_user_to_database(c, m)
-    await m.reply_text("I can rename media without downloading it!\n"
+    await m.reply_text("man tg gala rename karala dennam"
                        "Speed depends on your media DC.\n\n"
                        "Just send me media and reply to it with /rename command.\n\n"
                        "To set custom thumbnail reply to any image with /set_thumbnail\n\n"
